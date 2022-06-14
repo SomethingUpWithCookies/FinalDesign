@@ -1,18 +1,48 @@
 import React from "react";
 
+import Typed from 'react-typed';
+
 const Hero = () => {
     return(
         <div className='text-white font-Poppins'>
             {/* Offset */}
-        <div className="mt-[219px] h-[484px] w-1/2 mx-auto text-center flex flex-col justify-center">
-                <h1 className="text-green font-bold p-3 md:text-7xl sm:text-5xl text-3xl">Let Your Ideas Breakthrough</h1>
-                <div className="md:text-3xl sm:text-2xl text-1xl">
-                    <p>A </p>
-                    <p className="text-pink">student driven movement </p>
-                    <p>committed to helping </p>
-                    <p className="text-yellow">all students </p>
-                    <p>with their writing</p>
+        <div className="max-w-[800px] mt-[-94px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+                <h1 className="text-green font-bold p-3 md:text-7xl sm:text-6xl text-4xl">Let Your Ideas Breakthrough</h1>
+                
+                <div className="md:text-4xl sm:text-3xl text-xl justify-center items-center py-2">
+                    <p className="text-pink">A student driven movement</p>    
+                    <p>Committed to helping all students with their</p>
+                        <Typed 
+                        className="text-yellow py-1"
+                        strings={['synthesis essays','argument essays','research papers','thesis papers', 'writing']}
+                        typeSpeed={100}
+                        backSpeed={110}
+                        
+                        />
+                    
                 </div>
+
+                <button className="bg-pink 
+                my-5
+
+                md:w-48
+                md:h-18 
+                md:text-[1.6rem] 
+                
+                
+                sm:w-36
+                sm:h-12 
+                sm:text-[1.2rem]
+                
+
+                w-[130px] 
+                h-[50px] 
+                text-xl
+                rounded-xl
+                
+                
+                mx-auto
+                 text-white">Contact Us</button>
             </div>
         
         

@@ -3,6 +3,7 @@ import React from "react";
 import Typed from 'react-typed';
 
 const Hero = () => {
+    
     return(
         <div className='text-white font-Poppins'>
             {/* Offset */}
@@ -13,7 +14,7 @@ const Hero = () => {
                     <p className="text-pink">A student driven movement</p>    
                     <p>Committed to helping all students with their</p>
                         <Typed 
-                        className="text-yellow py-1"
+                        className= "text-yellow"
                         strings={['synthesis essays','argument essays','research papers','thesis papers', 'writing']}
                         typeSpeed={100}
                         backSpeed={110}

@@ -1,6 +1,6 @@
 import React from "react";
-import Essay from ".../assets/Essay.svg"
-import icon from ".../assets/CollegeBoardIcon.svg"
+import Essay from "../assets/Essay.svg"
+import icon from "../assets/CollegeBoardIcon.svg"
 
 //Ideas: Maybe make an about the team page that can be linked to
 

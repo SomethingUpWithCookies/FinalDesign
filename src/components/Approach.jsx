@@ -12,7 +12,7 @@ const Approach = () => {
                     <h1 className="text-4xl text-center font-semibold text-pink">Personalized Approach</h1>
                     <p className="text-2xl md:text-left text-center my-2"> Every writer is unique so it only makes sense that a personal style is used to help them blossom.</p>
 
-                    <p className="my-3 text-sm text-offwhite md:text-left text-center"> Wherever a student may struggle our tutors will help improve their weaknesses and make their strengths shine even brighter. Whether that be focusing on thesis statements, grammar, voice, commentary or any other reason we'll ensure rapid growth.</p>
+                    <p className="my-1 text-sm text-offwhite md:text-left text-center"> Wherever a student may struggle our tutors will help improve their weaknesses and make their strengths shine even brighter. Whether that be focusing on thesis statements, grammar, voice, commentary or any other reason we'll ensure rapid growth.</p>
                 </div>
             </div>
         </div>

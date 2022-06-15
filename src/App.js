@@ -1,7 +1,6 @@
 
 import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import NavHero from './components/HeroNavParent'
 import Approach from './components/Approach';
 import Experience from './components/Experience';
 import Sucess from './components/Sucess';
@@ -11,8 +10,7 @@ function App() {
   return (
     
       <div>
-        <Navbar/>
-        <Hero/>
+        <NavHero/>
         <Free/>
         <Approach/>
         <Experience/>

@@ -1,14 +1,21 @@
 import React, {useState} from "react";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 
-import Hero from "./Hero";
 
-const Navbar = () => {
+
+
+
+const Navbar = (props) => {
     const [nav, setNav] = useState(true)
 
-    const handleNav = () =>{
+    function handleNav(){
         setNav(!nav)
         
+    }
+
+    function reader() {
+        
+        props.readState(nav)
     }
 
    
@@ -25,8 +32,9 @@ const Navbar = () => {
 
             </ul>
             {/* Handles Icon Change */}
-            <div onClick={handleNav} className="block md:hidden">
-                
+             {/* handleNav */}
+            <div onClick={()=>{reader(); handleNav()}} className="block md:hidden">
+               
                 {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} color={"#F7F7F9"}/>}
                 
             </div>
@@ -39,7 +47,7 @@ const Navbar = () => {
                     <li className="p-4">Contact</li> 
                 </ul>
             </div>
-            <Hero textVis = {nav}/>
+            
         </div>
     )
 }

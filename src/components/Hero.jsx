@@ -2,7 +2,7 @@ import React from "react";
 
 import Typed from 'react-typed';
 
-const Hero = () => {
+const Hero = (props) => {
     
     return(
         <div className='text-white font-Poppins'>
@@ -14,7 +14,7 @@ const Hero = () => {
                     <p className="text-pink">A student driven movement</p>    
                     <p>Committed to helping all students with their</p>
                         <Typed 
-                        className= "text-yellow"
+                        className= {props.getState ? " text-yellow ease-out duration-[480ms] invisible":"visible text-yellow"}
                         strings={['synthesis essays','argument essays','research papers','thesis papers', 'writing']}
                         typeSpeed={100}
                         backSpeed={110}

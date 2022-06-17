@@ -6,7 +6,7 @@ import Hero from './Hero'
 const HeroNavParent = () => {
     const [navStat, setNavStat] = useState(false)
 
-
+    
 
     return(
         <div>

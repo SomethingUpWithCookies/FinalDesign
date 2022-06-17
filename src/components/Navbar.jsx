@@ -22,18 +22,23 @@ const Navbar = (props) => {
 
     return(
         // Destop Menu
-        <div className="text-white font-Poppins items-center flex justify-between h-12 mx-auto px-4">
+        
+        <div className="fixed w-full top-0 text-white font-Poppins z-50 items-center flex justify-between h-12 mx-auto px-4 bg-navBar">
             
-            <h1 className="w-full text-3xl font-Poppins font-bold">Inkpot.</h1>
-            <ul className="hidden md:flex"> {/*Handles changing size at different break points*/}
-                <li className="p-4">About</li>
-                <li className="p-4">News</li>
+            <a className=" text-3xl font-Poppins font-bold" href="/">Inkpot.</a>
+            <ul className="hidden md:flex relative"> {/*Handles changing size at different break points*/}
+                <li className="p-4">
+                    <a href="/about">About</a>
+                </li>
+                <li className="p-4">
+                    <a href="/news">News</a>
+                </li>
                 <li className="p-4">Contact</li>
 
             </ul>
             {/* Handles Icon Change */}
              {/* handleNav */}
-            <div onClick={()=>{reader(); handleNav()}} className="block md:hidden">
+            <div onClick={()=>{reader(); handleNav()}} className="block md:hidden relative">
                
                 {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} color={"#F7F7F9"}/>}
                 
@@ -49,6 +54,7 @@ const Navbar = (props) => {
             </div>
             
         </div>
+        
     )
 }
 export default Navbar

@@ -14,7 +14,7 @@ const HeroNavParent = () => {
                  readState={navStat => setNavStat(navStat)}
             />
             <Hero getState={navStat}/>
-            <h1 className="text-white">{navStat}</h1>
+            
         </div>
     );
 }

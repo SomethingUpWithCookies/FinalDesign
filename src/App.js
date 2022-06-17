@@ -1,23 +1,27 @@
 
 import './App.css';
-import NavHero from './components/HeroNavParent'
-import Approach from './components/Approach';
-import Experience from './components/Experience';
-import Sucess from './components/Sucess';
-import Free from './components/Free';
+import Home from './pages/Home';
+
+import About from './pages/About';
+import News from './pages/News';
+import Team from './pages/Team';
+import ContactUs from './pages/Contact-Us';
+
+import {Route, Routes} from 'react-router-dom';
+
 
 function App() {
   return (
-    
-      <div>
-        <NavHero/>
-        <Free/>
-        <Approach/>
-        <Experience/>
-        <Sucess/>
-        
-      </div>
-    
+    <div>
+      
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/news" element={<News/>} />
+        <Route path="/team" element = {<Team/>}/>
+        <Route path="/contact-us" element = {<ContactUs/>}/>
+      </Routes>
+    </div>
   );
 }
 export default App;

@@ -3,7 +3,7 @@ import { AiFillPropertySafety } from "react-icons/ai";
 import image from "../assets/Default.jpg"
 const BlogHeader = (props) =>
     {
-        const [navStat, setNavStat] = useState(false)
+        
         return(
             <div className="font-Poppins mt-4 outline outline-green rounded-xl shadow-lg bg-light-green px-4">
                 <h1 className="text-7xl font-bold">{props.title}</h1>

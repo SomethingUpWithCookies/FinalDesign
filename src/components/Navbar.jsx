@@ -23,9 +23,9 @@ const Navbar = (props) => {
     return(
         // Destop Menu
     
-        <div className="fixed w-full top-0 text-white font-Poppins z-50 items-center flex justify-between h-12 mx-auto px-4 bg-navBar ">
+        <div className="fixed w-full top-0 text-white font-Poppins z-50 items-center flex justify-between h-12 mx-auto px-4 bg-navBar shadow-2xl">
             
-            <a className=" text-3xl font-Poppins font-bold" href="/">Inkpot.</a>
+            <a className=" text-3xl font-Poppins font-bold hover:text-yellow ease-in-out duration-200 hover:text-[2rem]" href="/">Inkpot.</a>
             <ul className="hidden md:flex relative"> {/*Handles changing size at different break points*/}
                 <li className="p-4 hover:text-yellow ease-in-out duration-200 hover:text-lg">
                     <a href="/about">About</a>
@@ -47,7 +47,9 @@ const Navbar = (props) => {
             </div>
             {/* Mobile Menu Triggers side menu*/}
             <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-black bg-black ease-in-out duration-500': 'fixed left-[-100%]'}>
-            <h1 className="w-full text-3xl font-Poppins font-bold m-4">Inkpot.</h1>
+            <h1 className="w-full text-3xl font-Poppins font-bold m-4 hover:text-yellow ease-in-out duration-200 hover:text-[2rem] ">
+                <a href="/">Inkpot.</a>
+            </h1>
                 <ul >
                     <li className="p-4 hover:text-yellow ease-in-out duration-200 hover:text-lg">
                         <a href="/about">About</a>

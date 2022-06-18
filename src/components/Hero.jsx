@@ -5,8 +5,9 @@ import Typed from 'react-typed';
 const Hero = (props) => {
     
     return(
-        <div className='text-white font-Poppins '>
+        <div className='text-white font-Poppins flex'>
             {/* Offset */}
+         
         <div className="max-w-[800px] mt-[-94px] w-full h-screen mx-auto text-center flex flex-col justify-center">
                 <h1 className="text-green font-bold p-3 md:text-7xl sm:text-6xl text-4xl">Let Your Ideas Breakthrough</h1>
                 

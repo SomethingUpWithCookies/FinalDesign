@@ -1,6 +1,6 @@
 import React from "react";
-import Essay from "../assets/Essay.svg"
-import icon from "../assets/CollegeBoardIcon.svg"
+import Essay from '../assets/DesktopIcon.svg';
+import icon from "../assets/CollegeBoardIcon.svg";
 
 //Ideas: Maybe make an about the team page that can be linked to
 
@@ -31,7 +31,7 @@ const Experience = () => {
                     but I want it to have that disappearing quality that hidden has but with the func
                     of turning it visible which is why w-0 and h-0 are used to make the image no longer present
                     */}
-                <img className="md:visible invisible md:w-full md:h-full mx-auto w-0 h-0"src={Essay} alt="Written Paper Icon"/>
+                <img className="md:visible invisible md:w-[400px] md:h-[400px] mx-auto w-0 h-0"src={Essay} alt="Written Paper Icon"/>
             </div>
         </div>
     )

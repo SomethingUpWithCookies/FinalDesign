@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Navbar from "../components/Navbar";
-import Card from "../components/newsPage/NewsCard";
+import Card from "../components/NewsCard";
 
 import {useParams} from "react-router-dom";
 

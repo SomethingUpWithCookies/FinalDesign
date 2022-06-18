@@ -1,7 +1,7 @@
 import React from "react";
 
-import background from "../../assets/defaultBackground.jpg";
-import icon from "../../assets/Izzy.jpg";
+import background from "../assets/defaultBackground.jpg";
+import icon from "../assets/Izzy.jpg";
 
 import {useNavigate} from "react-router-dom";
 

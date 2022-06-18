@@ -1,13 +1,14 @@
 import React from "react";
 import Person from "../assets/download.png";
 import PeopleIcon from "../components/PeopleIcon";
-
+import Renee from "../assets/ReneeTest.jpg";
+import Izzy from "../assets/Izzy.jpg";
 const CardGrid =()=>{
     return(
-        <div className="mx-auto max-w-[1240px] grid lg:grid-cols-3 col-auto gap-8 gap-x-0 items-start justify-items-center h-screen">
+        <div className="mb-10 mx-auto max-w-[1240px] grid lg:grid-cols-3 col-auto gap-8 gap-x-0 items-start justify-items-center h-[110%]">
             <PeopleIcon img={Person} name="Crosby"/>
-            <PeopleIcon img={Person} name="Renee"/>
-            <PeopleIcon img={Person} name="Isabella"/>
+            <PeopleIcon img={Renee} name="Renee"/>
+            <PeopleIcon img={Izzy} name="Isabella"/>
             <PeopleIcon img={Person} name="Meher"/>
             <PeopleIcon img={Person} name="Ben"/>
             <PeopleIcon img={Person} name="JJ"/>

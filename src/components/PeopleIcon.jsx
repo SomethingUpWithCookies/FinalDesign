@@ -26,7 +26,7 @@ const PeopleIcon = (props) => {
                 <h2 className="CardTitle text-3xl font-medium py-4 group-hover:text-green ease-in-out duration-200">{props.name}</h2>
                 <p className="description h-0 text-[0px]
                 group-hover:text-sm group-hover:h-max hover:ease-in ease-out duration-200">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quis ratione eum hic quas, numquam possimus nihil accusantium reprehenderit. Facere possimus ea maxime voluptatem numquam hic similique repellendus! Est, iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugiat veritatis earum eveniet veniam libero, quis adipisci odit alias esse dolor neque fuga ipsum porro odio reprehenderit voluptate. Unde, quae.
+                    {props.desc}
                 </p>
             </div>
         </div>

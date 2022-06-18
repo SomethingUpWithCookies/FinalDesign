@@ -22,7 +22,7 @@ const Form = () => {
 
     return(
         <div className="w-4/5 md:w-100 md:max-w-full mx-auto">
-            <div className="p-6 outline rounded-lg outline-pink outline-4 sm:rounded-lg max-w-[700px] mx-auto bg-gray">
+            <div className="p-6 rounded-lg sm:rounded-lg max-w-[700px] mx-auto bg-gray">
                 <form onSubmit={sendEmail} ref={form}>
                     <label className="block mb-6">
                          <span className="text-gray-700">Your name</span>

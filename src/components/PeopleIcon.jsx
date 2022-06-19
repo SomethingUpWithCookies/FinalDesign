@@ -12,7 +12,7 @@ const PeopleIcon = (props) => {
         font-Poppins
         my-4
         py-20
-        justify-center mx-auto flex text-center w-60 p-2 outline-pink outline-[8px] outline rounded-[.75rem] outline-offset-8
+        justify-center mx-auto flex text-center w-60 p-2 outline-pink outline-[8px] rounded-[.75rem] outline-offset-8
         hover:outline-green
         hover:outline-[12px]
         hover:w-[18rem]

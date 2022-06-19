@@ -31,9 +31,6 @@ const Navbar = (props) => {
                     <a href="/about">About</a>
                 </li>
                 <li className="p-4 hover:text-yellow ease-in-out duration-200 hover:text-lg">
-                    <a href="/news">News</a>
-                </li>
-                <li className="p-4 hover:text-yellow ease-in-out duration-200 hover:text-lg">
                     <a href="/team">Team</a>
                 </li>
                 <li className="p-4 hover:text-yellow ease-in-out duration-200 hover:text-lg">
@@ -56,9 +53,6 @@ const Navbar = (props) => {
                 <ul >
                     <li className="p-4 hover:text-yellow ease-in-out duration-200 hover:text-lg">
                         <a href="/about">About</a>
-                    </li>
-                    <li className="p-4 hover:text-yellow ease-in-out duration-200 hover:text-lg">
-                     <a href="/news">News</a>
                     </li>
                     <li className="p-4 hover:text-yellow ease-in-out duration-200 hover:text-lg">
                      <a href="/team">Teams</a>

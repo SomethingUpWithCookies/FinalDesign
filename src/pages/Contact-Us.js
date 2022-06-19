@@ -9,8 +9,8 @@ function ContactUs(){
     return(
         <div className="Contact font-Poppins text-white">
             <Navbar readState={navStat => setNavStat(navStat)}/>
-            <Hero/>
-            <Form/>
+            <Hero />
+            <Form />
             <Footer/>
         </div>
     )

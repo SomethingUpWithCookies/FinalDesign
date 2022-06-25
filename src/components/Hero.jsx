@@ -13,7 +13,7 @@ const Hero = (props) => {
                 
                 <div className="md:text-4xl sm:text-3xl text-xl justify-center items-center py-2">
                     <p className="text-pink">A student driven movement</p>    
-                    <p>Committed to helping all students with their</p>
+                    <p className="px-4">Committed to helping all students with their</p>
                         <Typed 
                         className= {props.getState ? " text-yellow ease-out duration-[480ms] invisible":"visible text-yellow"}
                         strings={['synthesis essays','argument essays','research papers','thesis papers', 'writing']}

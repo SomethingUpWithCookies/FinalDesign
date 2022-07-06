@@ -17,8 +17,8 @@ const Experience = () => {
                 </div>
                 <div className="flex justify-center flex-col">
                     <h1 className="text-4xl text-center font-semibold text-green">Passionate and Experienced.</h1>
-                    <p className="text-2xl md:text-left text-center my-2">Student tutors offer a current and down-to-Earth approach to help other students hit the boxes they need to suceed.</p>
-                    <p className="my-1 text-sm text-offwhite md:text-left text-center"> Our tutors are all incredible writers and have excelled through highschool, giving them both the confidence and expertise to help any student improve dramatically.</p>
+                    <p className="text-2xl md:text-left text-center my-2">Student tutors offer a current and down-to-earth approach to help other students hit the boxes they need to succeed.</p>
+                    <p className="my-1 text-sm text-offwhite md:text-left text-center">Our tutors are all incredible writers and have excelled through high school, giving them both the confidence and expertise to help any student improve dramatically.</p>
                     <div className="my-1 text-sm text-offwhite text-center inline-flex justify-center md:justify-start">
                         <p className="text-offwhite">To learn more about the team </p>
                         <a href="/team" className="text-green px-1">click here</a>

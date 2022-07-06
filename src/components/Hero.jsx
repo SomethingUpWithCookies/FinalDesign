@@ -5,10 +5,10 @@ import Typed from 'react-typed';
 const Hero = (props) => {
     
     return(
-        <div className='text-white font-Poppins flex'>
+        <div className='text-white font-Poppins flex mt-10'>
             {/* Offset */}
          
-        <div className="max-w-[800px] mt-[-94px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+        <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
                 <h1 className="text-green font-bold p-3 md:text-7xl sm:text-6xl text-4xl">Let Your Ideas Breakthrough</h1>
                 
                 <div className="md:text-4xl sm:text-3xl text-xl justify-center items-center py-2">
